@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:     Invisible Breadcrumbs
- * Plugin URI:      https://www.nikhilchavan.com/
+ * Plugin URI:      https://github.com/Nikschavan/invisible-breadcrumbs
  * Description:     Adds JSON-LD based Breadcrumbs schema to your site visible only to the Search Engines.
  * Author:          Nikhil Chavan
  * Author URI:      https://www.nikhilchavan.com/
