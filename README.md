@@ -8,11 +8,13 @@
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
-Adds JSON-LD based breacrumb schema to your site visible only to the Search Engines such as Google.
+Adds JSON-LD based breadcrumb schema to your site visible only to the Search Engines such as Google.
 
 ## Description ##
 
-Adds JSON-LD based breacrumb schema to your site visible only to the Search Engines such as Google.
+Adds JSON-LD based breadcrumb schema to your site visible only to the Search Engines such as Google.
+
+Credits - [SEO Yoast](https://github.com/Yoast/wordpress-seo/blob/trunk/frontend/class-breadcrumbs.php) for the base breadcrumbs class.
 
 ## Installation ##
 

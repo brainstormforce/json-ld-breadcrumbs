@@ -14,6 +14,8 @@ Adds JSON-LD based breadcrumb schema to your site visible only to the Search Eng
 
 Adds JSON-LD based breadcrumb schema to your site visible only to the Search Engines such as Google.
 
+Credits - [SEO Yoast](https://github.com/Yoast/wordpress-seo/blob/trunk/frontend/class-breadcrumbs.php) for the base breadcrumbs class.
+
 == Installation ==
 
 This section describes how to install the plugin and get it working.
