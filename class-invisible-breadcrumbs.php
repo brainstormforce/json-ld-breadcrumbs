@@ -179,7 +179,7 @@ class Invisible_Breadcrumbs {
 			return;
 		}
 		if ( isset( $this->post->post_type ) && get_post_type_archive_link( $this->post->post_type ) ) {
-			$this->add_ptarchive_crumb( $this->post_type_archive_title( $this->post->post_type ), get_post_type_archive_link( $this->post->post_type ) );
+			$this->add_crumb( $this->post_type_archive_title( $this->post->post_type ), get_post_type_archive_link( $this->post->post_type ) );
 		}
 	}
 
@@ -321,7 +321,7 @@ class Invisible_Breadcrumbs {
 				$post_type = $wp_query->get( 'post_type' );
 
 				if ( $post_type && is_string( $post_type ) ) {
-					$this->add_ptarchive_crumb( $this->post_type_archive_title( $post_type ), get_post_type_archive_link( $post_type ) );
+					$this->add_crumb( $this->post_type_archive_title( $post_type ), get_post_type_archive_link( $post_type ) );
 				}
 			} elseif ( is_tax() || is_tag() || is_category() ) {
 				$this->add_crumbs_for_taxonomy();
