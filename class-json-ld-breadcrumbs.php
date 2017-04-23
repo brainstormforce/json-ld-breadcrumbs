@@ -1,25 +1,25 @@
 <?php
 /**
- * Class Invisible Breadcrumb.
+ * Class JSON LD Breadcrumb.
  *
- * @package  Invisible_Breadcrumbs
+ * @package  JSON_LD_Breadcrumbs
  */
 
 // Exit if the file is called directy by URL.
 defined( 'ABSPATH' ) or exit;
 
 /**
- * Class Invisible Breadcrumb.
+ * Class JSON LD Breadcrumb.
  *
  * @since  1.0.0
  */
-class Invisible_Breadcrumbs {
+class JSON_LD_Breadcrumbs {
 
 	/**
-	 * Instance of Invisible_Breadcrumbs
+	 * Instance of JSON_LD_Breadcrumbs
 	 *
 	 * @since  v1.0.0
-	 * @var Object Invisible_Breadcrumbs
+	 * @var Object JSON_LD_Breadcrumbs
 	 */
 	private static $_instance = null;
 
@@ -40,10 +40,10 @@ class Invisible_Breadcrumbs {
 	private $crumbs = array();
 
 	/**
-	 * Initiate the class Invisible_Breadcrumbs
+	 * Initiate the class JSON_LD_Breadcrumbs
 	 *
 	 * @since  1.0.0
-	 * @return (Object) Instance of Invisible_Breadcrumbs
+	 * @return (Object) Instance of JSON_LD_Breadcrumbs
 	 */
 	public static function instance() {
 		if ( ! isset( self::$_instance ) ) {
@@ -353,7 +353,7 @@ class Invisible_Breadcrumbs {
 			}// End if().
 		}// End if().
 
-		return apply_filters( 'invisible_breadcrumb_itemlist_array', $this->crumbs );
+		return apply_filters( 'json_ld_breadcrumb_itemlist_array', $this->crumbs );
 	}
 
 	/**
@@ -367,7 +367,7 @@ class Invisible_Breadcrumbs {
 
 		$breadcrumb['itemListElement'] = $this->add_breadcrumb_crumbs();
 
-		$this->json_schema( apply_filters( 'invisible_breadcrumb_array', $breadcrumb ) );
+		$this->json_schema( apply_filters( 'json_ld_breadcrumb_array', $breadcrumb ) );
 	}
 
 	/**

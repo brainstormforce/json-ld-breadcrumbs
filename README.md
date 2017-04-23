@@ -1,4 +1,4 @@
-# Invisible Breadcrumbs #
+# JSON-LD Breadcrumbs #
 **Contributors:** Nikschavan, brainstormforce  
 **Donate link:** https://www.paypal.me/BrainstormForce  
 **Tags:** schema, json-ld, breadcrumb, google, schema.org, structured data, seo, microdata  
