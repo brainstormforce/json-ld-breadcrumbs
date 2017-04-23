@@ -238,7 +238,7 @@ class Invisible_Breadcrumbs {
 	 */
 	private function add_crumbs_for_taxonomy() {
 		$term = $GLOBALS['wp_query']->get_queried_object();
-		$this->add_term_crumb( $term->name, get_term_link( $term ) );
+		$this->add_crumb( $term->name, get_term_link( $term ) );
 	}
 
 	/**
