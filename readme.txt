@@ -1,7 +1,7 @@
 === Invisible Breadcrumbs ===
 Contributors: Nikschavan, brainstormforce
 Donate link: https://www.paypal.me/BrainstormForce
-Tags: comments, spam
+Tags: schema, json-ld, breadcrumb, google, schema.org, structured data, seo, microdata
 Requires at least: 4.4
 Tested up to: 4.7.4
 Stable tag: 1.0.0
@@ -17,10 +17,6 @@ Adds JSON-LD based breadcrumb schema to your site visible only to the Search Eng
 Credits - [SEO Yoast](https://github.com/Yoast/wordpress-seo/blob/trunk/frontend/class-breadcrumbs.php) for the base breadcrumbs class.
 
 == Installation ==
-
-This section describes how to install the plugin and get it working.
-
-e.g.
 
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress.
