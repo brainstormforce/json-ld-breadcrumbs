@@ -9,7 +9,7 @@ module.exports = function( grunt ) {
 
 		addtextdomain: {
 			options: {
-				textdomain: 'invisible-breadcrumbs',
+				textdomain: 'json-ld-breadcrumbs',
 			},
 			target: {
 				files: {
@@ -30,8 +30,8 @@ module.exports = function( grunt ) {
 			target: {
 				options: {
 					domainPath: '/languages',
-					mainFile: 'invisible-breadcrumbs.php',
-					potFilename: 'invisible-breadcrumbs.pot',
+					mainFile: 'json-ld-breadcrumbs.php',
+					potFilename: 'json-ld-breadcrumbs.pot',
 					potHeaders: {
 						poedit: true,
 						'x-poedit-keywordslist': true

@@ -1,11 +1,11 @@
-# Copyright (C) 2017 YOUR NAME HERE
-# This file is distributed under the same license as the Invisible Breadcrumbs package.
+# Copyright (C) 2017 Nikhil Chavan
+# This file is distributed under the same license as the JSON-LD Breadcrumbs package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Invisible Breadcrumbs 1.0.0\n"
+"Project-Id-Version: JSON-LD Breadcrumbs 1.0.0\n"
 "Report-Msgid-Bugs-To: "
-"https://wordpress.org/support/plugin/invisible-breadcrumbs\n"
-"POT-Creation-Date: 2017-04-22 17:54:16+00:00\n"
+"https://wordpress.org/support/plugin/json-ld-breadcrumbs\n"
+"POT-Creation-Date: 2017-04-24 03:24:39+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,23 +26,23 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 
 #. Plugin Name of the plugin/theme
-msgid "Invisible Breadcrumbs"
+msgid "JSON-LD Breadcrumbs"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "PLUGIN SITE HERE"
+msgid "https://github.com/Nikschavan/json-ld-breadcrumbs"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Adds JSON-LD based breacrumb schema to your site visible only to the Search "
-"Engines."
+"Adds JSON-LD based Breadcrumbs schema to your site visible only to the "
+"Search Engines."
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "YOUR NAME HERE"
+msgid "Nikhil Chavan"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "YOUR SITE HERE"
+msgid "https://www.nikhilchavan.com/"
 msgstr ""
