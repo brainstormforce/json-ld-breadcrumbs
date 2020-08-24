@@ -1,15 +1,15 @@
-# Copyright (C) 2017 Nikhil Chavan
+# Copyright (C) 2020 Nikhil Chavan
 # This file is distributed under the same license as the JSON-LD Breadcrumbs package.
 msgid ""
 msgstr ""
 "Project-Id-Version: JSON-LD Breadcrumbs 1.0.0\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/json-ld-breadcrumbs\n"
-"POT-Creation-Date: 2017-04-24 03:24:39+00:00\n"
+"POT-Creation-Date: 2020-08-24 17:51:27+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
