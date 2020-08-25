@@ -25,3 +25,7 @@ Credits - [SEO Yoast](https://github.com/Yoast/wordpress-seo/blob/trunk/frontend
 
 = 1.0 =
 * Initial Release.
+
+= 1.0.1 =
+* Improvement - Updated code with the latest WordPress PHP_CodeSniffer rules.
+* Improvement - Compatibility with WordPress 5.5.
