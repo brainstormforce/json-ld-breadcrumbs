@@ -1,4 +1,6 @@
 {
+  "name": "Nikschavan/json-ld-breadcrumbs",
+  "description": "Adds JSON-LD based breadcrumb schema to your site visible only to the Search Engines.",
 	"require-dev": {
 		"dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
 		"wp-coding-standards/wpcs": "dev-master",
