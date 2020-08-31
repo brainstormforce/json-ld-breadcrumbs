@@ -3,8 +3,8 @@
 **Donate link:** https://www.paypal.me/BrainstormForce  
 **Tags:** schema, json-ld, breadcrumb, google, schema.org, structured data, seo, microdata  
 **Requires at least:** 4.4  
-**Tested up to:** 4.7.4  
-**Stable tag:** 1.0.0  
+**Tested up to:** 5.5  
+**Stable tag:** 1.0.1  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -23,5 +23,10 @@ Credits - [SEO Yoast](https://github.com/Yoast/wordpress-seo/blob/trunk/frontend
 
 ## Changelog ##
 
+### 1.0.1 ###
+* Improvement - Updated code with the latest WordPress PHP_CodeSniffer rules.
+* Improvement - Compatibility with WordPress 5.5.
+
 ### 1.0 ###
 * Initial Release.
+

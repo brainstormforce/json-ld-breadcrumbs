@@ -6,7 +6,7 @@
  */
 
 // Exit if the file is called directy by URL.
-defined( 'ABSPATH' ) or exit;
+defined( 'ABSPATH' ) || exit;
 
 if ( ! class_exists( 'JSON_LD_Breadcrumbs' ) ) {
 
@@ -23,7 +23,7 @@ if ( ! class_exists( 'JSON_LD_Breadcrumbs' ) ) {
 		 * @since  v1.0.0
 		 * @var Object JSON_LD_Breadcrumbs
 		 */
-		private static $_instance = null;
+		private static $instance = null;
 
 		/**
 		 * Crumb position. Increases everytime a new crumb is added.
@@ -48,11 +48,11 @@ if ( ! class_exists( 'JSON_LD_Breadcrumbs' ) ) {
 		 * @return (Object) Instance of JSON_LD_Breadcrumbs
 		 */
 		public static function instance() {
-			if ( ! isset( self::$_instance ) ) {
-				self::$_instance = new self;
+			if ( ! isset( self::$instance ) ) {
+				self::$instance = new self();
 			}
 
-			return self::$_instance;
+			return self::$instance;
 		}
 
 		/**
@@ -123,7 +123,7 @@ if ( ! class_exists( 'JSON_LD_Breadcrumbs' ) ) {
 		private function add_crumb( $name, $url = '', $image = '' ) {
 			$this->crumb_position = $this->crumb_position + 1;
 
-			if ( '' == $image ) {
+			if ( '' === $image ) {
 				$this->crumbs[] = array(
 					'@type'    => 'ListItem',
 					'position' => $this->crumb_position,
@@ -302,14 +302,14 @@ if ( ! class_exists( 'JSON_LD_Breadcrumbs' ) ) {
 			$this->maybe_add_home_crumb();
 			$this->maybe_add_blog_crumb();
 
-			if ( ( 'page' === $this->show_on_front && is_front_page() ) || ( 'posts' === $this->show_on_front && is_home() ) ) {
+			if ( ( 'page' === $this->show_on_front && is_front_page() ) || ( 'posts' === $this->show_on_front && is_home() ) ) { // phpcs:ignore Generic.CodeAnalysis.EmptyStatement.DetectedIf
 				// Do nothing.
-			} elseif ( 'page' == $this->show_on_front && is_home() ) {
+			} elseif ( 'page' === $this->show_on_front && is_home() ) {
 				$this->add_crumb( get_the_title( $this->page_for_posts ), get_permalink( $this->page_for_posts ) );
 			} elseif ( is_singular() ) {
 				$this->maybe_add_pt_archive_crumb_for_post();
 
-				if ( isset( $this->post->post_parent ) && 0 == $this->post->post_parent ) {
+				if ( isset( $this->post->post_parent ) && 0 === $this->post->post_parent ) {
 					$this->maybe_add_taxonomy_crumbs_for_post();
 				} else {
 					$this->add_post_ancestor_crumbs();
@@ -352,8 +352,8 @@ if ( ! class_exists( 'JSON_LD_Breadcrumbs' ) ) {
 						'Error 404: Page not found',
 						null
 					);
-				}// End if().
-			}// End if().
+				}
+			}
 
 			return apply_filters( 'json_ld_breadcrumb_itemlist_array', $this->crumbs );
 		}
@@ -383,12 +383,12 @@ if ( ! class_exists( 'JSON_LD_Breadcrumbs' ) ) {
 			$schema_output = null;
 
 			if ( ! empty( $schema ) && is_array( $schema ) ) {
-				$schema_output .= '<script type="application/ld+json">' . json_encode( $schema, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES ) . '</script>';
+				$schema_output .= '<script type="application/ld+json">' . wp_json_encode( $schema, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES ) . '</script>';
 			}
 
-			echo $schema_output;
+			echo $schema_output; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 		}
 
 	}
 
-}// End if().
+}

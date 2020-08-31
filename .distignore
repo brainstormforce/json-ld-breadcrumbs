@@ -27,3 +27,5 @@ node_modules
 *.sql
 *.tar.gz
 *.zip
+.github
+.wordpress-org
