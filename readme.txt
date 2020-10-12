@@ -23,6 +23,9 @@ Credits - [SEO Yoast](https://github.com/Yoast/wordpress-seo/blob/trunk/frontend
 
 == Changelog ==
 
+= 1.0.2 =
+* Fix: Hardened the security.
+
 = 1.0.1 =
 * Improvement - Updated code with the latest WordPress PHP_CodeSniffer rules.
 * Improvement - Compatibility with WordPress 5.5.
