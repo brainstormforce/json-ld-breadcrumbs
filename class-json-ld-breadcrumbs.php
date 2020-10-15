@@ -128,8 +128,8 @@ if ( ! class_exists( 'JSON_LD_Breadcrumbs' ) ) {
 					'@type'    => 'ListItem',
 					'position' => $this->crumb_position,
 					'item'     => array(
-						'@id'  => $url,
-						'name' => $name,
+						'@id'  => esc_url( $url ),
+						'name' => esc_html( $name ),
 					),
 				);
 			} else {
@@ -137,8 +137,8 @@ if ( ! class_exists( 'JSON_LD_Breadcrumbs' ) ) {
 					'@type'    => 'ListItem',
 					'position' => $this->crumb_position,
 					'item'     => array(
-						'@id'   => $url,
-						'name'  => $name,
+						'@id'   => esc_url( $url ),
+						'name'  => esc_html( $name ),
 						'image' => $image,
 					),
 				);
