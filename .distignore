@@ -29,3 +29,4 @@ node_modules
 *.zip
 .github
 .wordpress-org
+package-lock.json
