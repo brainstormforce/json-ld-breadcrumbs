@@ -1,4 +1,4 @@
-# Copyright (C) 2020 Nikhil Chavan
+# Copyright (C) 2020 Brainstorm Force
 # This file is distributed under the same license as the JSON-LD Breadcrumbs package.
 msgid ""
 msgstr ""
@@ -30,7 +30,7 @@ msgid "JSON-LD Breadcrumbs"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://github.com/Nikschavan/json-ld-breadcrumbs"
+msgid "https://github.com/brainstormforce/json-ld-breadcrumbs"
 msgstr ""
 
 #. Description of the plugin/theme
@@ -40,9 +40,9 @@ msgid ""
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Nikhil Chavan"
+msgid "Brainstorm Force"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "https://www.nikhilchavan.com/"
+msgid "https://www.brainstormforce.com/"
 msgstr ""

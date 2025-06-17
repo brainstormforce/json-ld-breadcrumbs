@@ -1,5 +1,5 @@
 # JSON-LD Breadcrumbs #
-**Contributors:** [Nikschavan](https://profiles.wordpress.org/Nikschavan), [pratikchaskar](https://profiles.wordpress.org/pratikchaskar)  
+**Contributors:** [pratikchaskar](https://profiles.wordpress.org/pratikchaskar)  
 **Donate link:** https://www.paypal.me/BrainstormForce  
 **Tags:** schema, json-ld, breadcrumb, google, schema.org, structured data, seo, microdata  
 **Requires at least:** 4.4  
