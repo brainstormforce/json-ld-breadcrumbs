@@ -3,8 +3,8 @@ Contributors: pratikchaskar
 Donate link: https://www.paypal.me/BrainstormForce
 Tags: schema, json-ld, breadcrumb, google, schema.org, structured data, seo, microdata
 Requires at least: 4.4
-Tested up to: 6.4.1
-Stable tag: 1.0.3
+Tested up to: 6.8
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,9 @@ Credits - [SEO Yoast](https://github.com/Yoast/wordpress-seo/blob/trunk/frontend
 1. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Changelog ==
+
+= 1.0.4 =
+* Improvement: Added compatibility to WordPress 6.8
 
 = 1.0.3 =
 * Improvement: Added compatibility to WordPress 6.1
