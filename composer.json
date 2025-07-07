@@ -1,5 +1,5 @@
 {
-  "name": "brainstormforce/json-ld-breadcrumbs",
+  "name": "pratikchaskar/json-ld-breadcrumbs",
   "description": "Adds JSON-LD based breadcrumb schema to your site visible only to the Search Engines.",
 	"require-dev": {
 		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
