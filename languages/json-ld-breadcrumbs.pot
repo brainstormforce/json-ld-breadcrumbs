@@ -1,4 +1,4 @@
-# Copyright (C) 2020 Brainstorm Force
+# Copyright (C) 2020 Pratik Chaskar
 # This file is distributed under the same license as the JSON-LD Breadcrumbs package.
 msgid ""
 msgstr ""
@@ -30,7 +30,7 @@ msgid "JSON-LD Breadcrumbs"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://github.com/brainstormforce/json-ld-breadcrumbs"
+msgid "https://github.com/pratikchaskar/json-ld-breadcrumbs"
 msgstr ""
 
 #. Description of the plugin/theme
@@ -40,9 +40,9 @@ msgid ""
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Brainstorm Force"
+msgid "Pratik Chaskar"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "https://www.brainstormforce.com/"
+msgid "https://www.pratikchaskar.com/"
 msgstr ""
