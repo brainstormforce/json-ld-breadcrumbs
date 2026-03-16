@@ -61,7 +61,7 @@ if ( ! class_exists( 'JSON_LD_Breadcrumbs' ) ) {
 		 * Page for posts option.
 		 *
 		 * @since  1.1.0
-		 * @var int
+		 * @var integer
 		 */
 		private $page_for_posts = 0;
 
@@ -87,7 +87,7 @@ if ( ! class_exists( 'JSON_LD_Breadcrumbs' ) ) {
 		private function __construct() {
 			$this->post           = ( isset( $GLOBALS['post'] ) ? $GLOBALS['post'] : null );
 			$this->show_on_front  = get_option( 'show_on_front' );
-			$this->page_for_posts = get_option( 'page_for_posts' );
+			$this->page_for_posts = (int) get_option( 'page_for_posts' );
 
 			add_action( 'wp_head', array( $this, 'set_crumbs' ) );
 		}
