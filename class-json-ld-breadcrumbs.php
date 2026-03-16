@@ -42,6 +42,30 @@ if ( ! class_exists( 'JSON_LD_Breadcrumbs' ) ) {
 		private $crumbs = array();
 
 		/**
+		 * Current post object.
+		 *
+		 * @since  1.1.0
+		 * @var null|WP_Post
+		 */
+		private $post = null;
+
+		/**
+		 * Show on front option.
+		 *
+		 * @since  1.1.0
+		 * @var string
+		 */
+		private $show_on_front = '';
+
+		/**
+		 * Page for posts option.
+		 *
+		 * @since  1.1.0
+		 * @var int
+		 */
+		private $page_for_posts = 0;
+
+		/**
 		 * Initiate the class JSON_LD_Breadcrumbs
 		 *
 		 * @since  1.0.0
