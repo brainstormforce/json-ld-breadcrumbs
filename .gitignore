@@ -5,4 +5,3 @@ node_modules/
 *.sql
 *.tar.gz
 *.zip
-config.bat
