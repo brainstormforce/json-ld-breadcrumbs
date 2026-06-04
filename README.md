@@ -2,7 +2,7 @@
 **Contributors:** [pratikchaskar](https://profiles.wordpress.org/pratikchaskar)  
 **Tags:** schema, json-ld, breadcrumb, google, schema.org, structured data, seo, microdata  
 **Requires at least:** 4.4  
-**Tested up to:** 6.9  
+**Tested up to:** 7.0
 **Stable tag:** 1.0.5  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
